@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.product-actions button {
+  background-color: #007BFF;
+}
+
+.product-actions .btn-delete {
+  background-color: #FF5733;
+}
+
+/* Product Form */
+.product-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.product-form .form-field {
+  margin-bottom: 15px;
+}
+
+.product-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-form input,
+.product-form select,
+.product-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.product-form .form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.product-form .form-buttons button {
+  width: 100%;
+}
