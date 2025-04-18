@@ -1,0 +1,34 @@
+[
+  {
+    "id": "2",
+    "name": "Banana",
+    "price": 2220,
+    "oldPrice": 1.29,
+    "category": "Fruits & Nuts",
+    "isActive": true,
+    "description": "Organic yellow bananas."
+  },
+  {
+    "id": "3",
+    "name": "Carrot",
+    "price": 1.49,
+    "oldPrice": 1.79,
+    "category": "Vegetables",
+    "isActive": true,
+    "description": "Crunchy orange carrots, perfect for salads."
+  },
+  {
+    "price": 0,
+    "oldPrice": null,
+    "id": "1744967146961"
+  },
+  {
+    "price": 0,
+    "oldPrice": 3,
+    "category": "",
+    "isActive": true,
+    "description": "apllie",
+    "id": "1744968479310",
+    "name": "carate"
+  }
+]
